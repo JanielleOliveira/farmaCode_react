@@ -21,6 +21,9 @@ function Navbar() {
 
         {/* LINKS */}
         <div className="hidden md:flex gap-10 items-center font-medium">
+          <Link to="/categorias" className={linkClasses("/categorias")}>
+            Categorias
+          </Link>
           <Link to="/sobre" className={linkClasses("/sobre")}>
             Sobre
           </Link>
